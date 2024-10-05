@@ -1,4 +1,4 @@
-package com.company;
+// package com.company;
 
 import java.awt.Color;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ public class MapDemo
       Map<String, Color> favoriteColors = new HashMap<String, Color>();
       favoriteColors.put("Juliet", Color.BLUE);
       favoriteColors.put("Romeo", Color.GREEN);
-      favoriteColors.put("Adam", Color.RED);
+      favoriteColors.put("Adam", Color.MAGENTA);
       favoriteColors.put("Eve", Color.BLUE);
       favoriteColors.put("Kay", Color.BLUE);
       favoriteColors.put("Kay", Color.ORANGE);// modifies value of existing key

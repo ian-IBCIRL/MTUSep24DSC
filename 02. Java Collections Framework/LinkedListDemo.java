@@ -41,6 +41,8 @@ public class LinkedListDemo
      
       // Print all elements
 
+      System.out.println(name1);
+      System.out.println(name2);
       System.out.println(staff);
       System.out.println("Expected: [Diana, Harry, Juliet, Nina, Tom]");
       // Process all the elements

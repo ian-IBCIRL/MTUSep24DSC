@@ -15,11 +15,14 @@ public class FileHandling {
                 lineParser.useDelimiter("[^A-Za-z0-9]+");
                 while (lineParser.hasNext()) {
                     String word = lineParser.next();
-                    System.out.println("''"+ word);
+                    System.out.println("''"+ word + lineNumber);
                 }
+                in.close(); 
+                lineParser.close();
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+
     }
 }

@@ -7,6 +7,6 @@ public class Main {
         int n = 55;
         Fun fun = new Fun();
         fun.haveFun();
-        System.out.println("Finishing main");
+        System.out.println("Finishing main "+n);
     }
 }

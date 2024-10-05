@@ -49,12 +49,12 @@ public class LinkedListDemo
       iterator = staff.listIterator();
       while (iterator.hasNext()){
          String name = iterator.next();
-         System.out.println(name);
+         System.out.println(name+"...");
       }
 
       //the enhanced for loop uses an iterator behind the scenes
       for (String s : staff){
-         System.out.println(s);
+         System.out.println(s+"---");
       }
    }
 }
